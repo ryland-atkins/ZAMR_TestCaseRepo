@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>AddAnimal</rootPath>
+    <result>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <date>2018-07-23T09:24:31-04:00</date>
+    <runTimeInMillis>39498</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=FIREFOX&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;FIREFOX&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;a href="http://localhost:8980/ZAMR"&gt;&lt;i&gt;Main Page&lt;/i&gt;&lt;/a&gt;&lt;br/&gt;&lt;h3&gt;Add Pen&lt;/h3&gt;
+&lt;b&gt;BEFORE TEST:&lt;/b&gt;&lt;br/&gt;&lt;ul&gt;
+	&lt;li&gt;There are no prerequisites for this test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;&lt;a href="FitNesse"&gt;FitNesse&lt;/a&gt; Configurations&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: C:/FitNesseForAppian/**.jar&lt;/span&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Initialization&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;com.appiancorp.ps.automatedtest.fixture.TempoFixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setup with&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;browser&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="2"&gt;https://training.itgfirm.net/suite&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="2"&gt;18.1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="2"&gt;en_US&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login to Tempo, go to actions, create new pen&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="2"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;login with username&lt;/td&gt;
+		&lt;td&gt;atkinsr&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;click on menu&lt;/td&gt;
+		&lt;td colspan="3"&gt;Actions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="3"&gt;Add Animal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Animal Name&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;FitNesse Test Animal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Gender&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;female&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Species&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Regression Test&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Birthday&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;01/02/2003&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Description&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;A FitNesse test of Appian's capability to add Animals to the database&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field &lt;span class="error"&gt;An error has occurred: Populate Field - photo - C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;photo&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="3"&gt;submit&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;click on menu&lt;/td&gt;
+		&lt;td colspan="3"&gt;Records&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;click on record type&lt;/td&gt;
+		&lt;td colspan="3"&gt;ZAMR Animals&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;verify record&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;FitNesse Test Animal&lt;/td&gt;
+		&lt;td colspan="2"&gt;is present&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;click on record&lt;/td&gt;
+		&lt;td colspan="3"&gt;FitNesse Test Animal&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;click on record view&lt;/td&gt;
+		&lt;td colspan="3"&gt;related actions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on record related action&lt;/td&gt;
+		&lt;td colspan="3"&gt;Remove Animal From Data Store&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;click on menu&lt;/td&gt;
+		&lt;td colspan="3"&gt;Records&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor4"&gt;
+		&lt;td&gt;click on record type&lt;/td&gt;
+		&lt;td colspan="3"&gt;ZAMR Animals&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;verify record&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;FitNesse Test Animal&lt;/td&gt;
+		&lt;td colspan="2"&gt;is not present&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button &lt;span class="error"&gt;Timeout period reached: Wait for Button - Submit&lt;/span&gt;&lt;/td&gt;
+		&lt;td colspan="3"&gt;Submit&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Log out and tear down&lt;/p&gt;
+	&lt;div&gt;This table logs out of Appian and closes the browser&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;logout&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;tear down&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>AddAnimal</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='com.appiancorp.ps.automatedtest.fixture.TempoFixture', args=[]}</instruction>
+        <slimResult>pass(com.appiancorp.ps.automatedtest.fixture.TempoFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>com.appiancorp.ps.automatedtest.fixture.TempoFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='setupWithBrowser', args=[CHROME]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='setAppianUrlTo', args=[https://training.itgfirm.net/suite]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_3', instruction='call', instanceName='scriptTableActor', methodName='setAppianVersionTo', args=[18.1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_4', instruction='call', instanceName='scriptTableActor', methodName='setAppianLocaleTo', args=[en_US]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsername', args=[atkinsr]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_0', instruction='call', instanceName='scriptTableActor', methodName='clickOnMenu', args=[Actions]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_1', instruction='call', instanceName='scriptTableActor', methodName='clickOnAction', args=[Add Animal]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_2', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Animal Name, FitNesse Test Animal]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Gender, female]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_3</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_4', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Species, Regression Test]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_4</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_5', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Birthday, 01/02/2003]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_5</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_6', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Description, A FitNesse test of Appian's capability to add Animals to the database]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_6</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_7', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[photo, C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_7</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>An error has occurred: Populate Field - photo - C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_8', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[submit]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_8</instructionId>
+                    <col>0</col>
+                              <row>9</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_9', instruction='call', instanceName='scriptTableActor', methodName='clickOnMenu', args=[Records]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_9</instructionId>
+                    <col>0</col>
+                              <row>10</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_10', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecordType', args=[ZAMR Animals]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_10</instructionId>
+                    <col>0</col>
+                              <row>11</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_11', instruction='call', instanceName='scriptTableActor', methodName='verifyRecordIsPresent', args=[FitNesse Test Animal]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_4_11</instructionId>
+                    <col>0</col>
+                              <row>12</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_12', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecord', args=[FitNesse Test Animal]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_12</instructionId>
+                    <col>0</col>
+                              <row>13</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_13', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecordView', args=[related actions]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_13</instructionId>
+                    <col>0</col>
+                              <row>14</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_14', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecordRelatedAction', args=[Remove Animal From Data Store]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_14</instructionId>
+                    <col>0</col>
+                              <row>15</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_15', instruction='call', instanceName='scriptTableActor', methodName='clickOnMenu', args=[Records]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_15</instructionId>
+                    <col>0</col>
+                              <row>16</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_16', instruction='call', instanceName='scriptTableActor', methodName='clickOnRecordType', args=[ZAMR Animals]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_4_16</instructionId>
+                    <col>0</col>
+                              <row>17</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_17', instruction='call', instanceName='scriptTableActor', methodName='verifyRecordIsNotPresent', args=[FitNesse Test Animal]}</instruction>
+        <slimResult>pass()</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_4_17</instructionId>
+                    <col>0</col>
+                              <row>18</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_4_18', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Submit]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>scriptTable_4_18</instructionId>
+                              <type>ScriptActionExpectation</type>
+                                        <evaluationMessage>Timeout period reached: Wait for Button - Submit</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_0', instruction='call', instanceName='scriptTableActor', methodName='logout', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_5_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_5_1', instruction='call', instanceName='scriptTableActor', methodName='tearDown', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_5_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Dlog4j.configuration=file:///C:/FitNesseForAppian/log4j.properties -cp C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\accessors-smart-1.1.jar;C:\FitNesseForAppian\lib\asm-5.0.3.jar;C:\FitNesseForAppian\lib\cglib-nodep-3.2.4.jar;C:\FitNesseForAppian\lib\commons-codec-1.10.jar;C:\FitNesseForAppian\lib\commons-exec-1.3.jar;C:\FitNesseForAppian\lib\commons-io-2.5.jar;C:\FitNesseForAppian\lib\commons-lang3-3.0.jar;C:\FitNesseForAppian\lib\commons-logging-1.2.jar;C:\FitNesseForAppian\lib\cssparser-0.9.22.jar;C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\gson-2.8.0.jar;C:\FitNesseForAppian\lib\guava-21.0.jar;C:\FitNesseForAppian\lib\hamcrest-core-1.3.jar;C:\FitNesseForAppian\lib\htmlunit-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-core-js-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-driver-2.26.jar;C:\FitNesseForAppian\lib\httpclient-4.5.3.jar;C:\FitNesseForAppian\lib\httpcore-4.4.6.jar;C:\FitNesseForAppian\lib\httpmime-4.5.3.jar;C:\FitNesseForAppian\lib\jackson-annotations-2.4.0.jar;C:\FitNesseForAppian\lib\jackson-core-2.4.1.1.jar;C:\FitNesseForAppian\lib\jackson-databind-2.4.1.3.jar;C:\FitNesseForAppian\lib\javax.servlet-api-3.1.0.jar;C:\FitNesseForAppian\lib\jcip-annotations-1.0.jar;C:\FitNesseForAppian\lib\jcommander-1.48.jar;C:\FitNesseForAppian\lib\jetty-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-http-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-io-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-repacked-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-util-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jna-4.1.0.jar;C:\FitNesseForAppian\lib\jna-platform-4.1.0.jar;C:\FitNesseForAppian\lib\json-path-2.2.0.jar;C:\FitNesseForAppian\lib\json-smart-2.2.1.jar;C:\FitNesseForAppian\lib\log4j-1.2.16.jar;C:\FitNesseForAppian\lib\neko-htmlunit-2.25.jar;C:\FitNesseForAppian\lib\phantomjsdriver-1.4.0.jar;C:\FitNesseForAppian\lib\sac-1.3.jar;C:\FitNesseForAppian\lib\selenium-api-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-chrome-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-edge-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-firefox-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-ie-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-java-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-opera-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-remote-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-safari-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-server-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-support-3.4.0.jar;C:\FitNesseForAppian\lib\serializer-2.7.2.jar;C:\FitNesseForAppian\lib\slf4j-api-1.7.16.jar;C:\FitNesseForAppian\lib\snakeyaml-1.15.jar;C:\FitNesseForAppian\lib\websocket-api-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-common-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\xalan-2.7.2.jar;C:\FitNesseForAppian\lib\xercesImpl-2.11.0.jar;C:\FitNesseForAppian\lib\xml-apis-1.4.01.jar;C:\FitNesseForAppian\lib\appian\fitnesse-for-appian-18.2.1.jar fitnesse.slim.SlimService 8085</command>
+    <exitCode>0</exitCode>
+    <stdOut>2018-07-23 09:24:36,267 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [atkinsr]
+2018-07-23 09:24:38,298 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2018-07-23 09:24:38,968 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Actions]
+2018-07-23 09:24:39,820 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Actions]
+2018-07-23 09:24:40,922 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction  - WAIT FOR ACTION [Add Animal]
+2018-07-23 09:24:40,962 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction  - CLICK ACTION [Add Animal]
+2018-07-23 09:24:41,975 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField  - POPULATION [FitNesse Test Animal]
+2018-07-23 09:24:43,074 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoRadioField  - POPULATION [female]
+2018-07-23 09:24:44,075 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField  - POPULATION [Regression Test]
+2018-07-23 09:24:45,227 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDateField  - POPULATION [01/02/2003]
+2018-07-23 09:24:46,537 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [A FitNesse test of Appian's capability to add Animals to the database]
+2018-07-23 09:24:48,538 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFileUploadField  - POPULATION [C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG]
+2018-07-23 09:24:49,611 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder  - Populate Field - photo - C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG
+org.openqa.selenium.WebDriverException: invalid argument: File not found : C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ITGL-5J8TNN2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\atkinsr\AppData\Local\Temp\scoped_dir13004_25408}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bcc4f03835baea8622a02bb86c9e5b0e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFileUploadField.populate(TempoFileUploadField.java:87)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:67)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:44)
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWith(TempoFixture.java:851)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:81)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:57)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:38)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:72)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:135)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:108)
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:84)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:77)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:64)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:49)
+	at fitnesse.slim.SlimService.handle(SlimService.java:154)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:162)
+	at fitnesse.slim.SlimService.accept(SlimService.java:124)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:76)
+	at fitnesse.slim.SlimService.main(SlimService.java:56)
+2018-07-23 09:24:49,620 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [submit]
+2018-07-23 09:24:49,635 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [submit]
+2018-07-23 09:24:50,488 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2018-07-23 09:24:50,522 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2018-07-23 09:24:51,452 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [ZAMR Animals]
+2018-07-23 09:24:52,045 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [ZAMR Animals]
+2018-07-23 09:24:52,978 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [FitNesse Test Animal]
+2018-07-23 09:24:52,997 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [FitNesse Test Animal]
+2018-07-23 09:24:53,006 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - CLICK RECORD [FitNesse Test Animal]
+2018-07-23 09:24:53,906 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordView  - WAIT FOR RECORD VIEW [related actions]
+2018-07-23 09:24:53,939 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordView  - CLICK ON RECORD VIEW [related actions]
+2018-07-23 09:24:54,806 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordRelatedAction  - CLICK ON RELATED ACTION [Remove Animal From Data Store]
+2018-07-23 09:24:55,654 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Records]
+2018-07-23 09:24:55,663 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Records]
+2018-07-23 09:24:56,577 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - WAIT FOR RECORD TYPE [ZAMR Animals]
+2018-07-23 09:24:57,120 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecordType  - CLICK RECORD TYPE [ZAMR Animals]
+2018-07-23 09:24:57,982 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.record.TempoRecord  - WAIT FOR RECORD [FitNesse Test Animal]
+2018-07-23 09:24:59,010 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Submit]
+2018-07-23 09:25:09,210 [main] ERROR com.appiancorp.ps.automatedtest.exception.ExceptionBuilder  - Wait for Button - Submit
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'submit') and not(contains(@class, 'button-disabled'))] (tried for 10 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton.waitFor(TempoButton.java:52)
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.clickOnButton(TempoFixture.java:1571)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:81)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:57)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:38)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:72)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:135)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:108)
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:84)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:77)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:64)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:49)
+	at fitnesse.slim.SlimService.handle(SlimService.java:154)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:162)
+	at fitnesse.slim.SlimService.accept(SlimService.java:124)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:76)
+	at fitnesse.slim.SlimService.main(SlimService.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'submit') and not(contains(@class, 'button-disabled'))]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ITGL-5J8TNN2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 27 more
+2018-07-23 09:25:09,222 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2018-07-23 09:25:09,233 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOG OUT
+</stdOut>
+    <stdErr>Jul 23, 2018 9:24:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+org.openqa.selenium.WebDriverException: invalid argument: File not found : C:\FitNesseForAppian\FitNesseRoot\Documents\Zoo Management Tests\FitNesse-Test-Result-Yellow.PNG
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ITGL-5J8TNN2', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\atkinsr\AppData\Local\Temp\scoped_dir13004_25408}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: bcc4f03835baea8622a02bb86c9e5b0e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFileUploadField.populate(TempoFileUploadField.java:87)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populate(TempoFieldFactory.java:67)
+	at com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFieldFactory.populateMultiple(TempoFieldFactory.java:44)
+	at com.appiancorp.ps.automatedtest.fixture.TempoFixture.populateFieldWith(TempoFixture.java:851)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:81)
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:57)
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:38)
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:72)
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20)
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:135)
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:108)
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35)
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29)
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49)
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43)
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85)
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:84)
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:77)
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:64)
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:49)
+	at fitnesse.slim.SlimService.handle(SlimService.java:154)
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:162)
+	at fitnesse.slim.SlimService.accept(SlimService.java:124)
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:76)
+	at fitnesse.slim.SlimService.main(SlimService.java:56)
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>40425</totalRunTimeInMillis>
+</testResults>
+

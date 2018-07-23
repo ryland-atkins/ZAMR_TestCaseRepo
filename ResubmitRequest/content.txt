@@ -1,0 +1,29 @@
+[[''Main Page''][http://localhost:8980/ZAMR]]
+!3 Resubmit Request
+'''BEFORE TEST:'''
+ * There are no prerequisites for this test.
+
+!***> FitNesse Configurations
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m}
+!path ${automated.testing.home}/**.jar
+***!
+!***> Initialization
+!| script             |com.appiancorp.ps.automatedtest.fixture.TempoFixture|
+|setup with           |CHROME                   |browser                  |
+|set appian url to    |https://training.itgfirm.net/suite                                         |
+|set appian version to|18.1                                      |
+|set appian locale to |en_US                                       |
+***!
+!*** Login to Tempo, go to actions, create new pen
+!| script                     |
+|login with username	|atkinsr	|
+|click on menu      	|Actions  	|
+|click on action		|Add Pen    |
+|populate field |Name				|with|Zebra Test Pen 1	|
+|populate field |Type				|with|Large				|
+|populate field |Characteristics	|with|This is a large Zebra pen. Testing. |
+|populate field	|Picture 			|with|C:\FitNesseForAppian\testUploadPictures\zebra-pen.jpg |
+|click on button |Submit |
+
+***!

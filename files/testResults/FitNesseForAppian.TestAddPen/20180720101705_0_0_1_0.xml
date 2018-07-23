@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20160515</FitNesseVersion>
+  <rootPath>FitNesseForAppian.TestAddPen</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2018-07-20T10:17:06-04:00</date>
+    <runTimeInMillis>18730</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="ScenarioLibrary"&gt;.ScenarioLibrary&lt;/a&gt; &lt;a href="ScenarioLibrary?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;h2&gt;These scenarios will be accessible to all test cases in the the FitNesseRoot folder. If you are using a different FitNesseRoot Folder, make sure to copy these files if using any setup scenarios.&lt;/h2&gt;
+&lt;br/&gt;&lt;h3&gt;Update these variables for your specific test environment&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Variables for Scenarios&lt;/p&gt;
+	&lt;div&gt;Default browser can be &lt;b&gt;FIREFOX&lt;/b&gt;, &lt;b&gt;CHROME&lt;/b&gt;, or &lt;b&gt;IE&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultBrowser=FIREFOX&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Version can be &lt;b&gt;17.2&lt;/b&gt;, &lt;b&gt;17.1&lt;/b&gt;, &lt;b&gt;16.3&lt;/b&gt;, &lt;b&gt;16.2&lt;/b&gt;, &lt;b&gt;16.1&lt;/b&gt;, &lt;b&gt;7.11&lt;/b&gt;, or &lt;b&gt;7.10&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultVersion=17.2&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default Locale can be &lt;b&gt;en_US&lt;/b&gt; or &lt;b&gt;en_GB&lt;/b&gt;&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultLocale=en_US&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;Default URL should include http or https and /suite (e.g. &lt;b&gt;https://forum.appian.com/suite&lt;/b&gt; )&lt;br/&gt;&lt;span class="meta"&gt;variable defined: defaultUrl=REPLACE_APPIAN_URL&lt;/span&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;To use out of the box functionality, do not update the scenarios below&lt;/h3&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Setup customizable for browser, locale, version, and URL&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;browserType&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;location&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;versionNum&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;setup with browser&lt;/td&gt;
+		&lt;td colspan="8"&gt;@browserType&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@location&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@versionNum&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="8"&gt;@appianUrl&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;set timeout seconds to&lt;/td&gt;
+		&lt;td colspan="8"&gt;20&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td colspan="9"&gt;set start datetime&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Scenario - Setup using default values &lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;scenario&lt;/td&gt;
+		&lt;td colspan="7"&gt;setup for test script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor6"&gt;
+		&lt;td&gt;setup for test script for browser&lt;/td&gt;
+		&lt;td&gt;FIREFOX&lt;/td&gt;
+		&lt;td&gt;locale&lt;/td&gt;
+		&lt;td&gt;en_US&lt;/td&gt;
+		&lt;td&gt;version&lt;/td&gt;
+		&lt;td&gt;17.2&lt;/td&gt;
+		&lt;td&gt;url&lt;/td&gt;
+		&lt;td&gt;REPLACE_APPIAN_URL&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;h3&gt;Please fill out the following before testing&lt;/h3&gt;
+&lt;ul&gt;
+	&lt;li&gt;If your TESTING_HOME is located somewhere other than C:/FitNesseForAppian, update &lt;i&gt;automated.testing.home&lt;/i&gt; in TESTING_HOME/configs/custom.properties&lt;ul&gt;
+	&lt;li&gt;For more information look at &lt;a href="FitNesseForAppian.Documentation.Administration.ChangeFitnesseForAppianInstallationDirectory"&gt;Changing FitNesse for Appian installation directory&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+	&lt;li&gt;Click "Edit" at the top of this page and update the following fields in the "Initialization" and "Login to Tempo..." blocks below&lt;ul&gt;
+	&lt;li&gt;Replace &lt;i&gt;APPIAN_URL&lt;/i&gt; with Appian URL, beginning with &lt;a href="https://"&gt;https://&lt;/a&gt; and including /suite at the end (e.g. &lt;a href="https://forum.appian.com/suite)"&gt;https://forum.appian.com/suite)&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Replace &lt;i&gt;APPIAN_VERSION&lt;/i&gt; with (7.10, 7.11, 16.1, 16.2, 16.3, 17.1, 17.2, 17.3, 17.4, 18.1, or 18.2)&lt;/li&gt;
+	&lt;li&gt;Replace &lt;i&gt;APPIAN_LOCALE&lt;/i&gt; with (en_US or en_GB) to handle differences in how dates are displayed&lt;/li&gt;
+	&lt;li&gt;Replace &lt;i&gt;APPIAN_USERNAME&lt;/i&gt; with username for Appian URL above&lt;/li&gt;
+	&lt;li&gt;Update C:/FitNesseForAppian/configs/users.properties and add a line for the above username (e.g. test.user=password)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br/&gt;&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;&lt;span class="fitnesse"&gt;FitNesse&lt;/span&gt; Configurations&lt;/p&gt;
+	&lt;div&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: COMMAND_PATTERN=java -Dlog4j.configuration=file:///${automated.testing.home}/log4j.properties -cp %p %m&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: C:/FitNesseForAppian/**.jar&lt;/span&gt;&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Initialization&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td&gt;script&lt;/td&gt;
+		&lt;td colspan="2"&gt;&lt;span class="pass"&gt;com.appiancorp.ps.automatedtest.fixture.TempoFixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;setup with&lt;/td&gt;
+		&lt;td&gt;CHROME&lt;/td&gt;
+		&lt;td&gt;browser&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor7"&gt;
+		&lt;td&gt;set appian url to&lt;/td&gt;
+		&lt;td colspan="2"&gt;https://training.itgfirm.net/suite&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian version to&lt;/td&gt;
+		&lt;td colspan="2"&gt;18.1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;set appian locale to&lt;/td&gt;
+		&lt;td colspan="2"&gt;en_US&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="collapsible"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Login to Tempo and go to Records&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;script&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor9"&gt;
+		&lt;td&gt;login with username&lt;/td&gt;
+		&lt;td colspan="3"&gt;atkinsr&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;click on menu&lt;/td&gt;
+		&lt;td colspan="3"&gt;Actions&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on action&lt;/td&gt;
+		&lt;td colspan="3"&gt;Add Pen&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Name&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Zed&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Type&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;Large&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Characteristics&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;This is a large Zebra pen.&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor2"&gt;
+		&lt;td&gt;populate field&lt;/td&gt;
+		&lt;td&gt;Picture&lt;/td&gt;
+		&lt;td&gt;with&lt;/td&gt;
+		&lt;td&gt;C:\FitNesseForAppian\testUploadPictures\zebra-pen.jpg&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;click on button&lt;/td&gt;
+		&lt;td colspan="3"&gt;Submit&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br/&gt;&lt;/div&gt;
+&lt;/div&gt;
+</content>
+    <relativePageName>TestAddPen</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_0', instruction='make', instanceName='scriptTableActor', className='com.appiancorp.ps.automatedtest.fixture.TempoFixture', args=[]}</instruction>
+        <slimResult>pass(com.appiancorp.ps.automatedtest.fixture.TempoFixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>scriptTable_2_0</instructionId>
+                    <col>1</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>com.appiancorp.ps.automatedtest.fixture.TempoFixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_1', instruction='call', instanceName='scriptTableActor', methodName='setupWithBrowser', args=[CHROME]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_1</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_2', instruction='call', instanceName='scriptTableActor', methodName='setAppianUrlTo', args=[https://training.itgfirm.net/suite]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_2</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_3', instruction='call', instanceName='scriptTableActor', methodName='setAppianVersionTo', args=[18.1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_3</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_2_4', instruction='call', instanceName='scriptTableActor', methodName='setAppianLocaleTo', args=[en_US]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_2_4</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_0', instruction='call', instanceName='scriptTableActor', methodName='loginWithUsername', args=[atkinsr]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_1', instruction='call', instanceName='scriptTableActor', methodName='clickOnMenu', args=[Actions]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_1</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_2', instruction='call', instanceName='scriptTableActor', methodName='clickOnAction', args=[Add Pen]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_2</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_3', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Name, Zed]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_3</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_4', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Type, Large]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_4</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_5', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Characteristics, This is a large Zebra pen.]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_5</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_6', instruction='call', instanceName='scriptTableActor', methodName='populateFieldWith', args=[Picture, C:\FitNesseForAppian\testUploadPictures\zebra-pen.jpg]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_6</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='scriptTable_3_7', instruction='call', instanceName='scriptTableActor', methodName='clickOnButton', args=[Submit]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>scriptTable_3_7</instructionId>
+                    <col>0</col>
+                              <row>8</row>
+                    <type>ScriptActionExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>java -Dlog4j.configuration=file:///C:/FitNesseForAppian/log4j.properties -cp C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\accessors-smart-1.1.jar;C:\FitNesseForAppian\lib\asm-5.0.3.jar;C:\FitNesseForAppian\lib\cglib-nodep-3.2.4.jar;C:\FitNesseForAppian\lib\commons-codec-1.10.jar;C:\FitNesseForAppian\lib\commons-exec-1.3.jar;C:\FitNesseForAppian\lib\commons-io-2.5.jar;C:\FitNesseForAppian\lib\commons-lang3-3.0.jar;C:\FitNesseForAppian\lib\commons-logging-1.2.jar;C:\FitNesseForAppian\lib\cssparser-0.9.22.jar;C:\FitNesseForAppian\lib\fitnesse-20160515-standalone.jar;C:\FitNesseForAppian\lib\gson-2.8.0.jar;C:\FitNesseForAppian\lib\guava-21.0.jar;C:\FitNesseForAppian\lib\hamcrest-core-1.3.jar;C:\FitNesseForAppian\lib\htmlunit-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-core-js-2.26.jar;C:\FitNesseForAppian\lib\htmlunit-driver-2.26.jar;C:\FitNesseForAppian\lib\httpclient-4.5.3.jar;C:\FitNesseForAppian\lib\httpcore-4.4.6.jar;C:\FitNesseForAppian\lib\httpmime-4.5.3.jar;C:\FitNesseForAppian\lib\jackson-annotations-2.4.0.jar;C:\FitNesseForAppian\lib\jackson-core-2.4.1.1.jar;C:\FitNesseForAppian\lib\jackson-databind-2.4.1.3.jar;C:\FitNesseForAppian\lib\javax.servlet-api-3.1.0.jar;C:\FitNesseForAppian\lib\jcip-annotations-1.0.jar;C:\FitNesseForAppian\lib\jcommander-1.48.jar;C:\FitNesseForAppian\lib\jetty-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-http-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\jetty-io-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-repacked-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jetty-util-9.4.1.v20170120.jar;C:\FitNesseForAppian\lib\jna-4.1.0.jar;C:\FitNesseForAppian\lib\jna-platform-4.1.0.jar;C:\FitNesseForAppian\lib\json-path-2.2.0.jar;C:\FitNesseForAppian\lib\json-smart-2.2.1.jar;C:\FitNesseForAppian\lib\log4j-1.2.16.jar;C:\FitNesseForAppian\lib\neko-htmlunit-2.25.jar;C:\FitNesseForAppian\lib\phantomjsdriver-1.4.0.jar;C:\FitNesseForAppian\lib\sac-1.3.jar;C:\FitNesseForAppian\lib\selenium-api-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-chrome-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-edge-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-firefox-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-ie-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-java-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-opera-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-remote-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-safari-driver-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-server-3.4.0.jar;C:\FitNesseForAppian\lib\selenium-support-3.4.0.jar;C:\FitNesseForAppian\lib\serializer-2.7.2.jar;C:\FitNesseForAppian\lib\slf4j-api-1.7.16.jar;C:\FitNesseForAppian\lib\snakeyaml-1.15.jar;C:\FitNesseForAppian\lib\websocket-api-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-client-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\websocket-common-9.4.3.v20170317.jar;C:\FitNesseForAppian\lib\xalan-2.7.2.jar;C:\FitNesseForAppian\lib\xercesImpl-2.11.0.jar;C:\FitNesseForAppian\lib\xml-apis-1.4.01.jar;C:\FitNesseForAppian\lib\appian\fitnesse-for-appian-18.2.1.jar fitnesse.slim.SlimService 8085</command>
+    <exitCode>0</exitCode>
+    <stdOut>2018-07-20 10:17:10,932 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - LOGIN [atkinsr]
+2018-07-20 10:17:12,602 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoLogin  - WAIT FOR LOGIN
+2018-07-20 10:17:13,744 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - WAIT FOR [Actions]
+2018-07-20 10:17:14,478 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.TempoMenu  - CLICK [Actions]
+2018-07-20 10:17:15,628 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction  - WAIT FOR ACTION [Add Pen]
+2018-07-20 10:17:15,645 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.action.TempoAction  - CLICK ACTION [Add Pen]
+2018-07-20 10:17:16,670 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoTextField  - POPULATION [Zed]
+2018-07-20 10:17:17,672 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoDropdownField  - POPULATION [Large]
+2018-07-20 10:17:18,905 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoParagraphField  - POPULATION [This is a large Zebra pen.]
+2018-07-20 10:17:20,740 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoFileUploadField  - POPULATION [C:\FitNesseForAppian\testUploadPictures\zebra-pen.jpg]
+2018-07-20 10:17:23,424 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - WAIT FOR BUTTON [Submit]
+2018-07-20 10:17:23,454 [main] DEBUG com.appiancorp.ps.automatedtest.tempo.interfaces.TempoButton  - CLICK BUTTON [Submit]
+</stdOut>
+    <stdErr>Jul 20, 2018 10:17:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>1</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>19966</totalRunTimeInMillis>
+</testResults>
+
