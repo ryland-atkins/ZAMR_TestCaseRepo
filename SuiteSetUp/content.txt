@@ -1,10 +1,15 @@
 !2 Suite Set Up
-!***> Initialization
+!*** Initialization
 This table initializes the fixture class and sets the environment defaults
 !| script             |com.appiancorp.ps.automatedtest.fixture.TempoFixture	|
 |set appian url to    |https://training.itgfirm.net/suite/              	|
 |set appian version to|18.1                                     			|
 |set appian locale to |en_US                                  		      	|
 ***!
-!4 Login Credentials
-!define employeeUsername {atkinsr}
+!*** Set Suite Variables
+This table creates a variable which will be available in all tests by using tv!titleThis table creates a variable which will be available in all tests by using tv!title
+| script |
+| set test variable | username      | with | atkinsr    |
+| set test variable | testPen       | with | {"name":"Test Pen", "type":"Xlarge", "description":"An extra large test pen", "photo":"C:\FitNesseForAppian\testUploadPictures\FitNesse-Test-Result-Yellow"} |
+| set test variable | testAnimal    | with | {"name":"Test Animal", "gender":"female", "species":"Ceratotherium Simum", "birthDate":"2008-05-06", "pen":"Test Pen", "photo":"C:\FitNesseForAppian\testUploadPictures\FitNesse-Test-Result-Yellow"} |
+***!

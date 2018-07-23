@@ -7,39 +7,3 @@
 ***!
 
 !contents -R2 -g -p -f -h
-
-
-!3 Employee Tests
-
-|'''Animal'''		|
-|AddAnimal			|
-|ViewAnimalRecord	|
-|EditAnimalDetails	|
-|ReasignAnimal		|
-|RemoveAnimal		|
-
-|'''Pen'''			|
-|AddPen				|
-|ViewPenRecord		|
-|EditPenDetails		|
-|RemovePen			|
-
-|'''Shared'''		|
-|ResubmitRequest	|
-
-!3 Fulfillment Officer Tests
-
-|'''Medical'''		|
-|VerifyMedicalView	|
-
-|'''Equipment'''	|
-|VerifyEquipmentView|
-
-|'''Shared'''		|
-|AcceptRequest		|
-|RejectRequest		|
-
-
-!3 Zoo Director Tests
-
-!3 Administrator Tests
