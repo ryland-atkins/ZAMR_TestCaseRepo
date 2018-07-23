@@ -1,0 +1,29 @@
+
+!*** Login to Tempo and Navigate to Request
+!| script |
+| click on menu      			| Records				|
+| click on record type			| ZAMR Requests			|
+| click on record 				| 268575875				|
+***!
+
+!*** Verify the Request
+!| script |
+| verify field | Request # 		| is present |
+| verify field | Requested By 	| is present |
+| verify field | Submitted On 	| is present |
+| verify field | Expected By 	| is present |
+| verify field | Request # 		| contains | 268575875 	  |
+| verify field | Requested By 	| contains | Cory Winkelhake |
+| verify field | Submitted On 	| contains | 2018-07-23 |
+| verify field | Expected By 	| contains | 2018-07-31  |
+| click on record view			| Related Actions		|
+| verify record related action 	| Approve/Reject 		| is present |
+***!
+
+!*** Submit Approval
+!| script |
+| click on record related action| Approve/Reject		|
+| populate field 				| Decision  		| with | Reject					|
+| populate field 				| Comment  			| with | This is a Reject Test Comment.	|
+| click on button				| Cancel 			|
+***!
